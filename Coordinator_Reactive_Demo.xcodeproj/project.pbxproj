@@ -14,18 +14,31 @@
 		D6BDE16D26D12CF500E9ABAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6BDE16C26D12CF500E9ABAD /* Assets.xcassets */; };
 		D6BDE17026D12CF500E9ABAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6BDE16E26D12CF500E9ABAD /* LaunchScreen.storyboard */; };
 		D6BDE17B26D12CF500E9ABAD /* Coordinator_Reactive_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BDE17A26D12CF500E9ABAD /* Coordinator_Reactive_DemoTests.swift */; };
-		D6BDE18626D12CF500E9ABAD /* Coordinator_Reactive_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BDE18526D12CF500E9ABAD /* Coordinator_Reactive_DemoUITests.swift */; };
+		D6BDE19526D12D4E00E9ABAD /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BDE19426D12D4E00E9ABAD /* RootCoordinator.swift */; };
+		D6BDE19F26D1320800E9ABAD /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BDE19E26D1320800E9ABAD /* HomeVM.swift */; };
+		D6BDE1A126D1322400E9ABAD /* HomeBLL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BDE1A026D1322400E9ABAD /* HomeBLL.swift */; };
+		D6BDE1A326D1323600E9ABAD /* HomeFromBLL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BDE1A226D1323600E9ABAD /* HomeFromBLL.swift */; };
+		D6BDE1A526D1325E00E9ABAD /* ObservableHomeFromBLL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BDE1A426D1325E00E9ABAD /* ObservableHomeFromBLL.swift */; };
+		D6BDE1A926D1328500E9ABAD /* HomeFromDAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BDE1A826D1328500E9ABAD /* HomeFromDAL.swift */; };
+		D6BDE1AB26D1329600E9ABAD /* HomeDAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BDE1AA26D1329600E9ABAD /* HomeDAL.swift */; };
+		D6BDE1AD26D132EA00E9ABAD /* ObservableDAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BDE1AC26D132EA00E9ABAD /* ObservableDAL.swift */; };
+		D6BDE1AF26D136E200E9ABAD /* response.json in Resources */ = {isa = PBXBuildFile; fileRef = D6BDE1AE26D136E200E9ABAD /* response.json */; };
+		D6BDE1B226D1388000E9ABAD /* Bundle+Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BDE1B126D1388000E9ABAD /* Bundle+Decodable.swift */; };
+		D6BDE1B426D13C6700E9ABAD /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BDE1B326D13C6700E9ABAD /* ServiceManager.swift */; };
+		D6BDE1B726D161A600E9ABAD /* ObservableHomeScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BDE1B626D161A600E9ABAD /* ObservableHomeScreenModel.swift */; };
+		D6BDE1B926D1625300E9ABAD /* HomeScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BDE1B826D1625300E9ABAD /* HomeScreenModel.swift */; };
+		D6BDE1BB26D1762800E9ABAD /* LearningPathFromDAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BDE1BA26D1762800E9ABAD /* LearningPathFromDAL.swift */; };
+		D6BDE1BD26D1772B00E9ABAD /* LearningPathsDAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BDE1BC26D1772B00E9ABAD /* LearningPathsDAL.swift */; };
+		D6BDE1BF26D1792300E9ABAD /* LearningPathsFromBLL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BDE1BE26D1792300E9ABAD /* LearningPathsFromBLL.swift */; };
+		D6BDE1C126D17A7C00E9ABAD /* ObservableLearningPathsFromBLL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BDE1C026D17A7C00E9ABAD /* ObservableLearningPathsFromBLL.swift */; };
+		D6BDE1C326D17B8500E9ABAD /* LearningPathsBLL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BDE1C226D17B8500E9ABAD /* LearningPathsBLL.swift */; };
+		D6BDE1C526D18CBA00E9ABAD /* LearningPathsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BDE1C426D18CBA00E9ABAD /* LearningPathsVM.swift */; };
+		D6BDE1C726D18E7800E9ABAD /* ObservableLearningPathsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BDE1C626D18E7800E9ABAD /* ObservableLearningPathsModel.swift */; };
+		D6BDE1C926D18F5500E9ABAD /* LearningPathsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BDE1C826D18F5500E9ABAD /* LearningPathsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		D6BDE17726D12CF500E9ABAD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D6BDE15826D12CF400E9ABAD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D6BDE15F26D12CF400E9ABAD;
-			remoteInfo = Coordinator_Reactive_Demo;
-		};
-		D6BDE18226D12CF500E9ABAD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D6BDE15826D12CF400E9ABAD /* Project object */;
 			proxyType = 1;
@@ -46,9 +59,27 @@
 		D6BDE17626D12CF500E9ABAD /* Coordinator_Reactive_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Coordinator_Reactive_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6BDE17A26D12CF500E9ABAD /* Coordinator_Reactive_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator_Reactive_DemoTests.swift; sourceTree = "<group>"; };
 		D6BDE17C26D12CF500E9ABAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D6BDE18126D12CF500E9ABAD /* Coordinator_Reactive_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Coordinator_Reactive_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6BDE18526D12CF500E9ABAD /* Coordinator_Reactive_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator_Reactive_DemoUITests.swift; sourceTree = "<group>"; };
-		D6BDE18726D12CF500E9ABAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6BDE19426D12D4E00E9ABAD /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		D6BDE19E26D1320800E9ABAD /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		D6BDE1A026D1322400E9ABAD /* HomeBLL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBLL.swift; sourceTree = "<group>"; };
+		D6BDE1A226D1323600E9ABAD /* HomeFromBLL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFromBLL.swift; sourceTree = "<group>"; };
+		D6BDE1A426D1325E00E9ABAD /* ObservableHomeFromBLL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableHomeFromBLL.swift; sourceTree = "<group>"; };
+		D6BDE1A826D1328500E9ABAD /* HomeFromDAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFromDAL.swift; sourceTree = "<group>"; };
+		D6BDE1AA26D1329600E9ABAD /* HomeDAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDAL.swift; sourceTree = "<group>"; };
+		D6BDE1AC26D132EA00E9ABAD /* ObservableDAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableDAL.swift; sourceTree = "<group>"; };
+		D6BDE1AE26D136E200E9ABAD /* response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = response.json; sourceTree = SOURCE_ROOT; };
+		D6BDE1B126D1388000E9ABAD /* Bundle+Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Decodable.swift"; sourceTree = "<group>"; };
+		D6BDE1B326D13C6700E9ABAD /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		D6BDE1B626D161A600E9ABAD /* ObservableHomeScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableHomeScreenModel.swift; sourceTree = "<group>"; };
+		D6BDE1B826D1625300E9ABAD /* HomeScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenModel.swift; sourceTree = "<group>"; };
+		D6BDE1BA26D1762800E9ABAD /* LearningPathFromDAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningPathFromDAL.swift; sourceTree = "<group>"; };
+		D6BDE1BC26D1772B00E9ABAD /* LearningPathsDAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningPathsDAL.swift; sourceTree = "<group>"; };
+		D6BDE1BE26D1792300E9ABAD /* LearningPathsFromBLL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningPathsFromBLL.swift; sourceTree = "<group>"; };
+		D6BDE1C026D17A7C00E9ABAD /* ObservableLearningPathsFromBLL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableLearningPathsFromBLL.swift; sourceTree = "<group>"; };
+		D6BDE1C226D17B8500E9ABAD /* LearningPathsBLL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningPathsBLL.swift; sourceTree = "<group>"; };
+		D6BDE1C426D18CBA00E9ABAD /* LearningPathsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningPathsVM.swift; sourceTree = "<group>"; };
+		D6BDE1C626D18E7800E9ABAD /* ObservableLearningPathsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableLearningPathsModel.swift; sourceTree = "<group>"; };
+		D6BDE1C826D18F5500E9ABAD /* LearningPathsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningPathsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +97,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6BDE17E26D12CF500E9ABAD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +105,6 @@
 			children = (
 				D6BDE16226D12CF400E9ABAD /* Coordinator_Reactive_Demo */,
 				D6BDE17926D12CF500E9ABAD /* Coordinator_Reactive_DemoTests */,
-				D6BDE18426D12CF500E9ABAD /* Coordinator_Reactive_DemoUITests */,
 				D6BDE16126D12CF400E9ABAD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +114,6 @@
 			children = (
 				D6BDE16026D12CF400E9ABAD /* Coordinator_Reactive_Demo.app */,
 				D6BDE17626D12CF500E9ABAD /* Coordinator_Reactive_DemoTests.xctest */,
-				D6BDE18126D12CF500E9ABAD /* Coordinator_Reactive_DemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +121,9 @@
 		D6BDE16226D12CF400E9ABAD /* Coordinator_Reactive_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				D6BDE1B026D1385B00E9ABAD /* Utilities */,
+				D6BDE1AE26D136E200E9ABAD /* response.json */,
+				D6BDE19326D12D3500E9ABAD /* Coordinator */,
 				D6BDE16326D12CF400E9ABAD /* AppDelegate.swift */,
 				D6BDE16526D12CF400E9ABAD /* SceneDelegate.swift */,
 				D6BDE16726D12CF400E9ABAD /* ViewController.swift */,
@@ -119,13 +144,110 @@
 			path = Coordinator_Reactive_DemoTests;
 			sourceTree = "<group>";
 		};
-		D6BDE18426D12CF500E9ABAD /* Coordinator_Reactive_DemoUITests */ = {
+		D6BDE19326D12D3500E9ABAD /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
-				D6BDE18526D12CF500E9ABAD /* Coordinator_Reactive_DemoUITests.swift */,
-				D6BDE18726D12CF500E9ABAD /* Info.plist */,
+				D6BDE19826D1301700E9ABAD /* Data */,
+				D6BDE19726D1300B00E9ABAD /* Business */,
+				D6BDE19626D12FFC00E9ABAD /* Presentation */,
+				D6BDE19426D12D4E00E9ABAD /* RootCoordinator.swift */,
 			);
-			path = Coordinator_Reactive_DemoUITests;
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		D6BDE19626D12FFC00E9ABAD /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				D6BDE1B526D1611F00E9ABAD /* Model */,
+				D6BDE19E26D1320800E9ABAD /* HomeVM.swift */,
+				D6BDE1C426D18CBA00E9ABAD /* LearningPathsVM.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		D6BDE19726D1300B00E9ABAD /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				D6BDE19D26D1308600E9ABAD /* BLLModels */,
+				D6BDE19A26D1304A00E9ABAD /* Observables */,
+				D6BDE1A026D1322400E9ABAD /* HomeBLL.swift */,
+				D6BDE1C226D17B8500E9ABAD /* LearningPathsBLL.swift */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		D6BDE19826D1301700E9ABAD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D6BDE19C26D1307400E9ABAD /* DALModels */,
+				D6BDE19B26D1306200E9ABAD /* ServiceManager */,
+				D6BDE19926D1303C00E9ABAD /* Observables */,
+				D6BDE1AA26D1329600E9ABAD /* HomeDAL.swift */,
+				D6BDE1BC26D1772B00E9ABAD /* LearningPathsDAL.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D6BDE19926D1303C00E9ABAD /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				D6BDE1AC26D132EA00E9ABAD /* ObservableDAL.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
+		D6BDE19A26D1304A00E9ABAD /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				D6BDE1A426D1325E00E9ABAD /* ObservableHomeFromBLL.swift */,
+				D6BDE1C026D17A7C00E9ABAD /* ObservableLearningPathsFromBLL.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
+		D6BDE19B26D1306200E9ABAD /* ServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				D6BDE1B326D13C6700E9ABAD /* ServiceManager.swift */,
+			);
+			path = ServiceManager;
+			sourceTree = "<group>";
+		};
+		D6BDE19C26D1307400E9ABAD /* DALModels */ = {
+			isa = PBXGroup;
+			children = (
+				D6BDE1A826D1328500E9ABAD /* HomeFromDAL.swift */,
+				D6BDE1BA26D1762800E9ABAD /* LearningPathFromDAL.swift */,
+			);
+			path = DALModels;
+			sourceTree = "<group>";
+		};
+		D6BDE19D26D1308600E9ABAD /* BLLModels */ = {
+			isa = PBXGroup;
+			children = (
+				D6BDE1A226D1323600E9ABAD /* HomeFromBLL.swift */,
+				D6BDE1BE26D1792300E9ABAD /* LearningPathsFromBLL.swift */,
+			);
+			path = BLLModels;
+			sourceTree = "<group>";
+		};
+		D6BDE1B026D1385B00E9ABAD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D6BDE1B126D1388000E9ABAD /* Bundle+Decodable.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D6BDE1B526D1611F00E9ABAD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6BDE1B626D161A600E9ABAD /* ObservableHomeScreenModel.swift */,
+				D6BDE1B826D1625300E9ABAD /* HomeScreenModel.swift */,
+				D6BDE1C626D18E7800E9ABAD /* ObservableLearningPathsModel.swift */,
+				D6BDE1C826D18F5500E9ABAD /* LearningPathsModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,24 +288,6 @@
 			productReference = D6BDE17626D12CF500E9ABAD /* Coordinator_Reactive_DemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D6BDE18026D12CF500E9ABAD /* Coordinator_Reactive_DemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D6BDE19026D12CF500E9ABAD /* Build configuration list for PBXNativeTarget "Coordinator_Reactive_DemoUITests" */;
-			buildPhases = (
-				D6BDE17D26D12CF500E9ABAD /* Sources */,
-				D6BDE17E26D12CF500E9ABAD /* Frameworks */,
-				D6BDE17F26D12CF500E9ABAD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D6BDE18326D12CF500E9ABAD /* PBXTargetDependency */,
-			);
-			name = Coordinator_Reactive_DemoUITests;
-			productName = Coordinator_Reactive_DemoUITests;
-			productReference = D6BDE18126D12CF500E9ABAD /* Coordinator_Reactive_DemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +301,6 @@
 						CreatedOnToolsVersion = 12.5;
 					};
 					D6BDE17526D12CF500E9ABAD = {
-						CreatedOnToolsVersion = 12.5;
-						TestTargetID = D6BDE15F26D12CF400E9ABAD;
-					};
-					D6BDE18026D12CF500E9ABAD = {
 						CreatedOnToolsVersion = 12.5;
 						TestTargetID = D6BDE15F26D12CF400E9ABAD;
 					};
@@ -221,7 +321,6 @@
 			targets = (
 				D6BDE15F26D12CF400E9ABAD /* Coordinator_Reactive_Demo */,
 				D6BDE17526D12CF500E9ABAD /* Coordinator_Reactive_DemoTests */,
-				D6BDE18026D12CF500E9ABAD /* Coordinator_Reactive_DemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,6 +330,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6BDE1AF26D136E200E9ABAD /* response.json in Resources */,
 				D6BDE17026D12CF500E9ABAD /* LaunchScreen.storyboard in Resources */,
 				D6BDE16D26D12CF500E9ABAD /* Assets.xcassets in Resources */,
 				D6BDE16B26D12CF400E9ABAD /* Main.storyboard in Resources */,
@@ -244,13 +344,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6BDE17F26D12CF500E9ABAD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,9 +351,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6BDE19526D12D4E00E9ABAD /* RootCoordinator.swift in Sources */,
+				D6BDE1C926D18F5500E9ABAD /* LearningPathsModel.swift in Sources */,
+				D6BDE1C526D18CBA00E9ABAD /* LearningPathsVM.swift in Sources */,
+				D6BDE1B226D1388000E9ABAD /* Bundle+Decodable.swift in Sources */,
+				D6BDE1A126D1322400E9ABAD /* HomeBLL.swift in Sources */,
+				D6BDE1A526D1325E00E9ABAD /* ObservableHomeFromBLL.swift in Sources */,
+				D6BDE19F26D1320800E9ABAD /* HomeVM.swift in Sources */,
+				D6BDE1BF26D1792300E9ABAD /* LearningPathsFromBLL.swift in Sources */,
+				D6BDE1B426D13C6700E9ABAD /* ServiceManager.swift in Sources */,
+				D6BDE1BB26D1762800E9ABAD /* LearningPathFromDAL.swift in Sources */,
+				D6BDE1C126D17A7C00E9ABAD /* ObservableLearningPathsFromBLL.swift in Sources */,
+				D6BDE1AD26D132EA00E9ABAD /* ObservableDAL.swift in Sources */,
+				D6BDE1C726D18E7800E9ABAD /* ObservableLearningPathsModel.swift in Sources */,
+				D6BDE1B726D161A600E9ABAD /* ObservableHomeScreenModel.swift in Sources */,
+				D6BDE1B926D1625300E9ABAD /* HomeScreenModel.swift in Sources */,
+				D6BDE1BD26D1772B00E9ABAD /* LearningPathsDAL.swift in Sources */,
+				D6BDE1AB26D1329600E9ABAD /* HomeDAL.swift in Sources */,
 				D6BDE16826D12CF400E9ABAD /* ViewController.swift in Sources */,
+				D6BDE1C326D17B8500E9ABAD /* LearningPathsBLL.swift in Sources */,
 				D6BDE16426D12CF400E9ABAD /* AppDelegate.swift in Sources */,
+				D6BDE1A926D1328500E9ABAD /* HomeFromDAL.swift in Sources */,
 				D6BDE16626D12CF400E9ABAD /* SceneDelegate.swift in Sources */,
+				D6BDE1A326D1323600E9ABAD /* HomeFromBLL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,14 +385,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6BDE17D26D12CF500E9ABAD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D6BDE18626D12CF500E9ABAD /* Coordinator_Reactive_DemoUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -287,11 +392,6 @@
 			isa = PBXTargetDependency;
 			target = D6BDE15F26D12CF400E9ABAD /* Coordinator_Reactive_Demo */;
 			targetProxy = D6BDE17726D12CF500E9ABAD /* PBXContainerItemProxy */;
-		};
-		D6BDE18326D12CF500E9ABAD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D6BDE15F26D12CF400E9ABAD /* Coordinator_Reactive_Demo */;
-			targetProxy = D6BDE18226D12CF500E9ABAD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -513,46 +613,6 @@
 			};
 			name = Release;
 		};
-		D6BDE19126D12CF500E9ABAD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B6LN4XWA2V;
-				INFOPLIST_FILE = Coordinator_Reactive_DemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.va.Coordinator-Reactive-DemoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Coordinator_Reactive_Demo;
-			};
-			name = Debug;
-		};
-		D6BDE19226D12CF500E9ABAD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B6LN4XWA2V;
-				INFOPLIST_FILE = Coordinator_Reactive_DemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.va.Coordinator-Reactive-DemoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Coordinator_Reactive_Demo;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -579,15 +639,6 @@
 			buildConfigurations = (
 				D6BDE18E26D12CF500E9ABAD /* Debug */,
 				D6BDE18F26D12CF500E9ABAD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D6BDE19026D12CF500E9ABAD /* Build configuration list for PBXNativeTarget "Coordinator_Reactive_DemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D6BDE19126D12CF500E9ABAD /* Debug */,
-				D6BDE19226D12CF500E9ABAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

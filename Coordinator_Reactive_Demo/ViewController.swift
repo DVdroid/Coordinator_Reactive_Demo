@@ -12,8 +12,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        //testJSONParsing()
+        let rootCoordinator = RootCoordinator()
+        rootCoordinator.start(rootViewcontroller: self)
     }
 
-
+    func testJSONParsing() {
+        let fileName = "response.json"
+        let object: HomeFromDAL? = Bundle.main.decode(fileName)
+        print(String(describing: object))
+    }
 }
 

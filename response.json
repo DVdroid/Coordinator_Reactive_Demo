@@ -1,0 +1,94 @@
+{
+    "learningPaths": [
+        {
+            "name": "Manage",
+            "subtitle": "Manage your money",
+            "contentItems": [
+                {
+                    "type": "article",
+                    "description": "Manage - This is a random article."
+                },
+                {
+                    "type": "podcast",
+                    "description": "Manage - This is a random podcast."
+                },
+                {
+                    "type": "video",
+                    "description": "Manage - This is a random video."
+                }
+            ]
+        },
+        {
+            "name": "Plan",
+            "subtitle": "Plan your money",
+            "contentItems": [
+                {
+                    "type": "article",
+                    "description": "Plan - This is a random article."
+                },
+                {
+                    "type": "podcast",
+                    "description": "Plan - This is a random podcast."
+                },
+                {
+                    "type": "video",
+                    "description": "Plan - This is a random video."
+                }
+            ]
+        },
+        {
+            "name": "Save",
+            "subtitle": "Save your money",
+            "contentItems": [
+                {
+                    "type": "article",
+                    "description": "Save - This is a random article."
+                },
+                {
+                    "type": "podcast",
+                    "description": "Save - This is a random podcast."
+                },
+                {
+                    "type": "video",
+                    "description": "Save - This is a random video."
+                }
+            ]
+        },
+        {
+            "name": "Invest",
+            "subtitle": "Invest your money",
+            "contentItems": [
+                {
+                    "type": "article",
+                    "description": "Invest - This is a random article."
+                },
+                {
+                    "type": "podcast",
+                    "description": "Invest - This is a random podcast."
+                },
+                {
+                    "type": "video",
+                    "description": "Invest - This is a random video."
+                }
+            ]
+        },
+        {
+            "name": "Protect",
+            "subtitle": "Protect your money",
+            "contentItems": [
+                {
+                    "type": "article",
+                    "description": "Protect - This is a random article."
+                },
+                {
+                    "type": "podcast",
+                    "description": "Protect - This is a random podcast."
+                },
+                {
+                    "type": "video",
+                    "description": "Protect - This is a random video."
+                }
+            ]
+        }
+    ]
+}
